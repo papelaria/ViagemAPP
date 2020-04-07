@@ -22,14 +22,12 @@ src/.sourcemaps/
 src/.sass-cache/
 src/.tmp/
 src/hooks/
-src/
 # Ionic 3 plugins files
 src/platforms/
 src/plugins/
 src/plugins/android.json
 src/plugins/ios.json
 src/www/
-src/
 # Trash data
 src/$RECYCLE.BIN/
 src/.DS_Store
