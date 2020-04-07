@@ -1,0 +1,39 @@
+
+# Created by https://www.gitignore.io/api/ionic3
+# Edit at https://www.gitignore.io/?templates=ionic3
+
+### Ionic3 ###
+# Log an tmp data
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+*log.txt
+
+# NPM (Node Package Manager) files
+src/npm-debug.log*
+src/node_modules/
+src/tmp/
+src/temp/
+
+# Preprocessors cache files
+src/.sourcemaps/
+src/.sass-cache/
+src/.tmp/
+src/hooks/
+src/
+# Ionic 3 plugins files
+src/platforms/
+src/plugins/
+src/plugins/android.json
+src/plugins/ios.json
+src/www/
+src/
+# Trash data
+src/$RECYCLE.BIN/
+src/.DS_Store
+src/Thumbs.db
+src/UserInterfaceState.xcuserstate
+
+# End of https://www.gitignore.io/api/ionic3
