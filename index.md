@@ -9,11 +9,11 @@ A narrativa traz uma diversidade de personagens, com muitos estereótipos, prefe
 
 ## Sobre o projeto
 
-O projeto da disciplina de Design de Software que estamos realizando é um app (plataforma) busca dar mais segurança a mulheres que desejam viajar sozinhas ou que desejam conhecer outras mulheres para juntas realizarem esse sonho. 
+O projeto da disciplina de Design de Software que estamos realizando é um app (plataforma) busca dar mais segurança às mulheres que se interessam por viajar sozinhas ou àquelas que desejam conhecer parceiras para realizarem juntas esse sonho. 
 
-Viajar tem a ver com liberdade, sensação de plenitude e sabemos que as mulheres possuem diversos obstáculos, seja pelo machismo de que muitas são vítimas, até de condições de desfavorecimento, expressamente culturais e impregnadas em toda sociedade. 
+Viajar tem algo que tem a ver com a liberdade, a sensação de plenitude, e sabemos que as mulheres enfrentam diversos obstáculos, unicamente por serem mulheres, seja pelo machismo estrutural de que muitas são vítimas ou até de condições de desfavorecimento, expressamente culturais e que estão impregnadas em toda sociedade. 
 
-Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto que agregue valor à vida das mulheres e contribua para um mundo mais fraterno e menos desigual, por isso sugerimos essa proposta. 
+Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto que agregue valor à vida das mulheres e contribua para um mundo mais fraterno e menos desigual.
 
 
 ## Changelog 
