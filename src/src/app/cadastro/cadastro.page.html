@@ -1,9 +1,54 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>cadastro</ion-title>
+    <ion-title>Cadastro</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-item-group>
+      <ion-item>
+        <ion-label>Nome</ion-label>
+        <ion-input type="text" [(ngModel)]="nome"></ion-input>
+      </ion-item>
 
+      <ion-item>
+        <ion-label>Sobrenome</ion-label>
+        <ion-input type="text" [(ngModel)]="sobrenome"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input type="text" [(ngModel)]="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Data de Nascimento</ion-label>
+        <ion-datetime displayFormat="DD de MMM de YYYY" display-timezone="utc" pickerFormat="DD MM YYYY" [(ngModel)]="dtNascimento"
+        monthShortNames="janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Telefone</ion-label>
+        <ion-input type="text" [(ngModel)]="telefone" [brmasker]="{phone: true}"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>CPF</ion-label>
+        <ion-input type="text" [(ngModel)]="cpf" maxlength="14" [brmasker]="{person: true}"></ion-input>
+      </ion-item>
+    </ion-item-group>
+
+    <ion-item-group>
+      <ion-item>
+        <ion-label>Nome de Usuário</ion-label>
+        <ion-input type="text" [(ngModel)]="username"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input type="password" [(ngModel)]="passwd"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="signUp()">Cadastrar</ion-button>
+    </ion-item-group>
 </ion-content>

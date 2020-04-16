@@ -41,4 +41,8 @@ export class LoginPage implements OnInit {
     (await toast).present();
   }
 
+  signUp(){
+    this.navCtrl.navigateRoot('/cadastro');
+  }
+
 }
