@@ -8,8 +8,11 @@ export class UsersService {
 
   constructor() { }
 
-  getUser(){
-    let user =  Parse.User.current();
+  getUser() {
+    let user;
+
+    user = Parse.User.current();
+
     return user;
   }
 }

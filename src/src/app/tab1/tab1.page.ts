@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { ParseService } from '../parse.service';
+import { UsersService } from '../users.service';
+import { NavController } from '@ionic/angular';
+import { Parse } from 'parse';
 
 @Component({
   selector: 'app-tab1',
@@ -12,32 +15,18 @@ export class Tab1Page {
   newScore = { playerName: null, score: null };
   gameScores = [];
 
-  constructor() {
-    //this.listScores();
+  constructor(private navCtrl: NavController) {
+    
   }
 
-  //public listScores(): Promise<any> {
-    //let offset = this.gameScores.length;
-    //let limit = 10;
-    // return this.pService.getGameScores(offset, limit).then((result) => {
-    //   for (let i = 0; i < result.length; i++) {
-    //     let object = result[i];
-    //     this.gameScores.push(object);
-    //   }
-    // }, (error) => {
-    //   console.log(error);
-    // });
-  //}
+   public postGameScore() {
+    Parse.User.logOut().then((resp) => {
+      console.log('Logged out successfully', resp);
 
-  // public postGameScore() {
-  //   this.pService.addGameScore(this.newScore).then((gameScore) => {
-  //     this.gameScores.push(gameScore);
-  //     this.newScore.playerName = null;
-  //     this.newScore.score = null;
-  //   }, (error) => {
-  //     console.log(error);
-  //     alert('Error adding score.');
-  //   });
-  // }
+      this.navCtrl.navigateRoot("/login");
+    }, err => {
+      console.log('Error logging out', err);
+   });
+  }
 
 }
