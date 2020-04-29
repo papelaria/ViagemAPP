@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrMaskerModule } from 'br-mask';
 import { FormsModule } from '@angular/forms';
+import { ImagePicker } from '@ionic-native/image-picker/ngx';
+
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
   providers: [
     StatusBar,
     SplashScreen,
+    ImagePicker,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    
   ],
   bootstrap: [AppComponent]
 })

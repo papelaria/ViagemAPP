@@ -10,8 +10,8 @@ import { ToastController, NavController } from '@ionic/angular';
 })
 export class LoginPage implements OnInit {
 
-  private username: string;
-  private password: string;
+  public username: string;
+  public password: string;
   private facebook = new Facebook();
 
 
@@ -68,6 +68,7 @@ export class LoginPage implements OnInit {
         user.set('Sobrenome', userData.last_name);
         user.set('DataNascimento', userData.birthday);
         user.set('email', userData.email);
+        user.set('picture', userData.picture);
         await user.save();
       }
 

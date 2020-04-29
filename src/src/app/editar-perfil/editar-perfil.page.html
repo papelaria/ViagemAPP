@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Editar Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img (click)="pickImage()" src="{{user.get('picture')}}" />
+  <ion-button (click)="pickImage()">Selecionar foto de perfil</ion-button>
+</ion-content>
