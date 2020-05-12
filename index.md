@@ -18,11 +18,11 @@ Viajar tem algo que tem a ver com a liberdade, a sensação de plenitude, e sabe
 Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto que agregue valor à vida das mulheres e contribua para um mundo mais fraterno e menos desigual.
 
 ## Documentação atualizada
-[Apresentação do protótipo da 1ª Sprint](ViagemAPP/blob/master/PDF_Proto%CC%81tipoSprint1-LaCasaDePapel.pdf)
+- [Apresentação do protótipo da 1ª Sprint](ViagemAPP/blob/master/PDF_Proto%CC%81tipoSprint1-LaCasaDePapel.pdf)
 
-[Documento de visão](https://github.com/papelaria/ViagemAPP/blob/master/PDF_DocumentoVisa%CC%83o-LaCasaDePapel.pdf)
+- [Documento de visão](https://github.com/papelaria/ViagemAPP/blob/master/PDF_DocumentoVisa%CC%83o-LaCasaDePapel.pdf)
 
-[Diagrama de classes do projeto](https://github.com/papelaria/ViagemAPP/blob/master/PDF_%20DiagramaClassesUML-LaCasaDePapel.pdf)
+- [Diagrama de classes do projeto](https://github.com/papelaria/ViagemAPP/blob/master/PDF_%20DiagramaClassesUML-LaCasaDePapel.pdf)
 
 
 ## Changelog
