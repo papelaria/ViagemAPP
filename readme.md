@@ -1,4 +1,4 @@
-## Bem vindo ao site do projeto Mulher Viajante
+## Bem vindo ao site do projeto: App Mulher Viajante
 
 Somos o grupo "La Casa de Pepel", estudantes da disciplina de Design do Software, do curso de Análise e Desenvolvimento de Sistemas da Universidade Católica de Brasília [(UCB)](https://ucb.catolica.edu.br/) e vamos utilizar esse espaço para compartilhar o desenvolvimeno do nosso projeto deste semestre.
 
