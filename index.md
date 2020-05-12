@@ -15,20 +15,33 @@ Viajar tem algo que tem a ver com a liberdade, a sensação de plenitude, e sabe
 
 Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto que agregue valor à vida das mulheres e contribua para um mundo mais fraterno e menos desigual.
 
+## Documentação
+[Apresentação do protótipo da 1ª Sprint](ViagemAPP/blob/master/PDF_Proto%CC%81tipoSprint1-LaCasaDePapel.pdf)
+Documento de visão última edição
+Diagrama de classe do projeto
+
 
 ## Changelog 
 
-04/04/2020 - Kanban criado, distribuição de tarefas, descrição de user stories para features.
+11/05/2020 - Estruturação do Kanban com todos os requisitos da 2ª Sprint
 
-31/3/2020 - Estruturação do  projeto, realização de atividades de co-criação e concepção.
+27/04/2020 - Apresentação do Protótipo da Sprint 1
 
-30/3/3030 - Realização de [Lean Inception](https://www.caroli.org/lean-inception).
+14/04/2020 - Produção de diagrama de classes UML do projeto
 
-28/03/2020 - Documento de visão finalizado. 
+07/04/2020 - Estruturação do Kanban com todos os requisitos da 1ª Sprint
 
-25/03/2020 - Pesquisa mercadológica, para identificar o perfil e as preferências do nosso público alvo.
+04/04/2020 - Kanban criado, distribuição de tarefas, descrição de user stories para features
+
+31/03/2020 - Finalização do documento de visão 
+
+31/3/2020 - Estruturação do projeto, realização de atividades de co-criação e concepção
+
+30/3/3030 - Atividade [Lean Inception](https://www.caroli.org/lean-inception "baixe gratuitamente o ebook do Paulo Caroli sobre Lean Inception"), realizada em grupo
+
+25/03/2020 - Pesquisa mercadológica, para identificar o perfil e as preferências do nosso público alvo
 
 
-### Contato
+## Contato
 
 https://papelaria.github.io/ViagemAPP/
