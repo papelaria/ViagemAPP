@@ -25,25 +25,25 @@ Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto
 [Diagrama de classes do projeto](https://github.com/papelaria/ViagemAPP/blob/master/PDF_%20DiagramaClassesUML-LaCasaDePapel.pdf)
 
 
-## Changelog 
+## Changelog
 
-11/05/2020 - Estruturação do Kanban com todos os requisitos da 2ª Sprint
++ 11/05/2020 - Estruturação do Kanban com todos os requisitos da 2ª Sprint
 
-27/04/2020 - Apresentação do Protótipo da Sprint 1
++ 27/04/2020 - Apresentação do Protótipo da Sprint 1
 
-14/04/2020 - Produção de diagrama de classes UML do projeto
++ 14/04/2020 - Produção de diagrama de classes UML do projeto
 
-07/04/2020 - Estruturação do Kanban com todos os requisitos da 1ª Sprint
++ 07/04/2020 - Estruturação do Kanban com todos os requisitos da 1ª Sprint
 
-04/04/2020 - Kanban criado, distribuição de tarefas, descrição de user stories para features
++ 04/04/2020 - Kanban criado, distribuição de tarefas, descrição de user stories para features
 
-31/03/2020 - Finalização do documento de visão 
++ 31/03/2020 - Finalização do documento de visão 
 
-31/3/2020 - Estruturação do projeto, realização de atividades de co-criação e concepção
++ 31/3/2020 - Estruturação do projeto, realização de atividades de co-criação e concepção
 
-30/3/3030 - Atividade [Lean Inception](https://www.caroli.org/lean-inception "baixe gratuitamente o ebook do Paulo Caroli sobre Lean Inception"), realizada em grupo
++ 30/3/3030 - Atividade [Lean Inception](https://www.caroli.org/lean-inception "baixe gratuitamente o ebook do Paulo Caroli sobre Lean Inception"), realizada em grupo
 
-25/03/2020 - Pesquisa mercadológica, para identificar o perfil e as preferências do nosso público alvo
++ 25/03/2020 - Pesquisa mercadológica, para identificar o perfil e as preferências do nosso público alvo
 
 
 ## Contato
