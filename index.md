@@ -9,7 +9,7 @@ A narrativa traz uma diversidade de personagens, com muitos estereótipos, prefe
 
 ## Sobre o projeto
 
-![alt text](https://github.com/papelaria/ViagemAPP/blob/master/casaPapel.png "Equipe CDP")
+![Casa de Papel (CDP)](https://github.com/papelaria/ViagemAPP/blob/master/casaPapel.png "Equipe CDP")
 
 O projeto da disciplina de Design de Software que estamos realizando é um app (plataforma) busca dar mais segurança às mulheres que se interessam por viajar sozinhas ou àquelas que desejam conhecer parceiras para realizarem juntas esse sonho. 
 
