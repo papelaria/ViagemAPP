@@ -24,8 +24,12 @@ Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto
 
 - [Diagrama de classes do projeto](https://github.com/papelaria/ViagemAPP/blob/master/PDF_%20DiagramaClassesUML-LaCasaDePapel.pdf)
 
+- [Documento de Arquitetura de Software](https://github.com/papelaria/ViagemAPP/blob/master/PDF_Documento-ArquiteturaSoftware-LaCasaDePapel.pdf)
+
 
 ## Changelog
+
++ 18/05/2020 - Co-criação em grupo do documento de arquitetura de software do projeto
 
 + 11/05/2020 - Estruturação do Kanban com todos os requisitos da 2ª Sprint
 
