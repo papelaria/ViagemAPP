@@ -9,16 +9,17 @@
 <ion-content>
 
   <ion-card>
-    <img src="{{userPicture}}" />
-    <ion-button (click)="getPitcure()">Editar Perfil</ion-button>
+    <img src="{{userPicture}}" (click)="editarPerfil()"/>
     <ion-card-header>
       <ion-card-subtitle></ion-card-subtitle>
-      <ion-card-title>Madison, WI</ion-card-title>
+      <ion-card-title *ngIf="user">{{user.get('Nome')}} {{user.get('Sobrenome')}}</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <p *ngIf="user">Olá {{user.get('Nome')}}</p>
+      <p *ngIf="user">Olá {{user.get('Nome')}}, tudo bem?</p>
+      <p>Aqui estão as últimas notícias:</p>
+      <p color="light">Não há notícias no momento!</p>
     </ion-card-content>
   </ion-card>
   
-
+  <ion-button color="danger" (click)="logout()">Sair</ion-button>
 </ion-content>

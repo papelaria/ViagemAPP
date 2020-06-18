@@ -14,16 +14,18 @@ export class Tab1Page {
   public user;
   public userPicture;
 
-  constructor(private navCtrl: NavController, private userSerive: UserService) {
-    this.user = this.userSerive.getUser();
-    this.userPicture = this.user.get('picture').data.url;
+  constructor(private navCtrl: NavController, private userService: UserService) {
+    this.user = this.userService.getUser();
+    if(this.user.get('pitcure') != undefined)
+      this.userPicture = this.user.get('pitcure').url();
   }
 
   async getPitcure() {
     try {
-      let pic = this.user.get('picture');
+      let pic = this.user.get('pitcure');
       alert(JSON.stringify(pic));
-      this.userPicture = pic.data.url;
+      if(pic != undefined)
+        this.userPicture = pic.url();
       alert(this.userPicture);
     } catch(err){
       alert(err);
@@ -31,10 +33,9 @@ export class Tab1Page {
     }
   }
 
-  postGameScore() {
+  logout(){
     Parse.User.logOut().then((resp) => {
       console.log('Logged out successfully', resp);
-
       this.navCtrl.navigateRoot("/login");
     }, err => {
       console.log('Error logging out', err);

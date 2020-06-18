@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { BrMaskerModule } from 'br-mask';
 import { FormsModule } from '@angular/forms';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
+import { ImageResizer } from '@ionic-native/image-resizer/ngx';
 
 
 
@@ -22,6 +23,7 @@ import { ImagePicker } from '@ionic-native/image-picker/ngx';
     StatusBar,
     SplashScreen,
     ImagePicker,
+    ImageResizer,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
     
   ],
