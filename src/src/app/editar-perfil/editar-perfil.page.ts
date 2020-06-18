@@ -49,19 +49,6 @@ export class EditarPerfilPage implements OnInit {
       this.imagePicker.getPictures({ maximumImagesCount: 1, outputType: 1 }).then((results) => {
         for (var i = 0; i < results.length; i++) {
           this.imageUri = results[i];
-          let options = {
-            uri: this.imageUri,
-            quality: 90,
-            width: 1280,
-            height: 1280,
-            base64: true
-           } as ImageResizerOptions;
-
-          this.imageResizer.resize(options).then(image => {
-            this.imageUri = image;
-          });
-
-          alert(this.imageUri);
         }
         this.mudouFoto = true;
       }, (err) => {

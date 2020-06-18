@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@ionic-native/camera": "^5.26.0",
     "@ionic-native/core": "^5.0.7",
     "@ionic-native/facebook": "^5.23.0",
     "@ionic-native/image-picker": "^5.24.0",
@@ -28,6 +29,7 @@
     "@ionic/angular": "^5.0.0",
     "br-mask": "0.0.9",
     "cordova-android": "8.1.0",
+    "cordova-plugin-camera": "^4.1.0",
     "cordova-plugin-facebook4": "^6.4.0",
     "cordova-plugin-telerik-imagepicker": "^2.3.3",
     "core-js": "^2.5.4",
@@ -38,7 +40,7 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.901.9",
+    "@angular-devkit/build-angular": "~0.803.20",
     "@angular/cli": "8.3.27",
     "@angular/compiler": "~8.2.14",
     "@angular/compiler-cli": "~8.2.14",
@@ -84,7 +86,10 @@
         "FACEBOOK_ANDROID_SDK_VERSION": "5.13.0"
       },
       "cordova-plugin-telerik-imagepicker": {},
-      "info.protonet.imageresizer": {}
+      "info.protonet.imageresizer": {},
+      "cordova-plugin-camera": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      }
     },
     "platforms": [
       "android"
