@@ -14,12 +14,17 @@
       <ion-card-subtitle></ion-card-subtitle>
       <ion-card-title *ngIf="user">{{user.get('Nome')}} {{user.get('Sobrenome')}}</ion-card-title>
     </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Notificações</ion-card-title>
+    </ion-card-header>
     <ion-card-content>
-      <p *ngIf="user">Olá {{user.get('Nome')}}, tudo bem?</p>
-      <p>Aqui estão as últimas notícias:</p>
-      <p color="light">Não há notícias no momento!</p>
+      <ion-list *ngFor="let not of notifica">
+        <ion-item>{{not}}</ion-item>
+      </ion-list>
     </ion-card-content>
   </ion-card>
   
-  <ion-button color="danger" (click)="logout()">Sair</ion-button>
+  <ion-button color="danger" expand="block" (click)="logout()"><ion-icon name="exit-outline"></ion-icon>Sair</ion-button>
 </ion-content>

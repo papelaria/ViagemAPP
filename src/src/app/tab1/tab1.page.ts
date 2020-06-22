@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { Parse } from 'parse';
 import { UserService } from '../users.service';
-import { ParseError } from '@angular/compiler';
 
 @Component({
   selector: 'app-tab1',
@@ -13,23 +12,32 @@ export class Tab1Page {
 
   public user;
   public userPicture;
+  public notifica = [
+    "Notificação teste",
+    "Notificação 2"
+  ]
 
   constructor(private navCtrl: NavController, private userService: UserService) {
+    try{
     this.user = this.userService.getUser();
     if(this.user.get('pitcure') != undefined)
       this.userPicture = this.user.get('pitcure').url();
+      //alert(this.user.get('pitcure').url());
+    } catch(err){
+      alert(err);
+    }
   }
 
   async getPitcure() {
     try {
       let pic = this.user.get('pitcure');
-      alert(JSON.stringify(pic));
+      //alert(JSON.stringify(pic));
       if(pic != undefined)
         this.userPicture = pic.url();
-      alert(this.userPicture);
+      //alert(this.userPicture);
     } catch(err){
       alert(err);
-      alert(this.user.get('picture'));
+      //alert(this.user.get('picture'));
     }
   }
 
@@ -47,7 +55,7 @@ export class Tab1Page {
       this.navCtrl.navigateRoot("/editar-perfil");
       //alert("trocou");
     } catch (err) {
-      alert(err);
+      //alert(err);
     }
   }
 
