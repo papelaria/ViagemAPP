@@ -29,6 +29,8 @@ Achamos importante dedicar tempo e pesquisa para o desenvolvimento de um produto
 
 ## Changelog
 
++ 22/06/2020 - Apresentação e entrega da tarefa M2
+
 + 18/05/2020 - Co-criação em grupo do documento de arquitetura de software do projeto
 
 + 11/05/2020 - Estruturação do Kanban com todos os requisitos da 2ª Sprint
